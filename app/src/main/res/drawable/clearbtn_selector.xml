@@ -1,0 +1,12 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+            <solid android:color="@color/uploadeditcolor" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+
+        </shape>
+    </item>
+</selector>

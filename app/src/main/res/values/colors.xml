@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="topcolor">#02CEAB</color>
+    <color name="tabclick">#00B596</color>
+
+    <color name="subtitle">#777777</color>
+
+    <color name="uploadeditcolor">#DADADA</color>
+    <color name="textgray">#aeaeae</color>
+    <color name="textblack">#565656</color>
+    <color name="statusbarcolor">#02CEAB</color>
+    <color name="clr_greenbtn">#02CEAB</color>
+    <color name="clr_greenbtn_clicked">#00B596</color>
+    <color name="clr_pinkbtn">#E75280</color>
+    <color name="clr_pinkbtn_clicked">#E72360</color>
+    <color name="clr_yellowbtn">#FFAD29</color>
+    <color name="clr_yellowbtn_clicked">#FF9D00</color>
+    <color name="clr_brownbtn">#EB4A3F</color>
+    <color name="clr_brownbtn_clicked">#EA0F00</color>
+
+
+        
+</resources>

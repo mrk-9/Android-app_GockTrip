@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gocktrip.activity.UploadTabActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.gocktrip.component.SquareRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <VideoView
+                android:id="@+id/uploadvideoview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <!--/storage/emulated/0/com.videorecorder/video/2016-04-16_17-14-54.mp4-->
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/videoplay"/>
+        </com.gocktrip.component.SquareRelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selectcategory"
+                android:textColor="@color/subtitle"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <com.gocktrip.component.SquareRelativeLayout
+                    android:id="@+id/uploade_hotelicon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/category_hotel"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_category_hotel"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@android:color/white"
+                        android:layout_marginBottom="10dp" />
+                </com.gocktrip.component.SquareRelativeLayout>
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"/>
+
+                <com.gocktrip.component.SquareRelativeLayout
+                    android:id="@+id/upload_restauranticon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/category_restaurant"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_category_restaurant"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@android:color/white"
+                        android:layout_marginBottom="10dp" />
+                </com.gocktrip.component.SquareRelativeLayout>
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"/>
+
+                <com.gocktrip.component.SquareRelativeLayout
+                    android:id="@+id/upload_havetodoicon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/category_havetodo"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_category_havetodo"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@android:color/white"
+                        android:layout_marginBottom="10dp" />
+                </com.gocktrip.component.SquareRelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hotelrestaurantname"
+                android:textColor="@color/subtitle"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <EditText
+                android:id="@+id/upload_activatename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/uploadcorneredittext"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/citycountry"
+                android:textColor="@color/subtitle"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <EditText
+                android:id="@+id/uploade_citycountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/uploadcorneredittext"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textColor="@color/subtitle"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <EditText
+                android:id="@+id/upload_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/uploadcorneredittext"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

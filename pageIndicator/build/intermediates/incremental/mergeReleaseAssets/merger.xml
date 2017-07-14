@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Volumes/MacWork/Work/Android/GockTrip/GockTrip/pageIndicator/src/main/assets"/><source path="/Volumes/MacWork/Work/Android/GockTrip/GockTrip/pageIndicator/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Volumes/MacWork/Work/Android/GockTrip/GockTrip/pageIndicator/src/release/assets"/></dataSet></merger>

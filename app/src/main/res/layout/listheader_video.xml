@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/videolist_header">
+
+    <RelativeLayout
+        android:id="@+id/searchbar_back_listview"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/img_searchbar">
+
+        <EditText
+            android:id="@+id/edittext_search_videolist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textSize="12dp"
+            android:maxLines="1"
+            android:hint="Enter a Hotel, Restaurant, Destination..."
+            android:background="@android:color/transparent"/>
+        <Button
+            android:id="@+id/btn_search_videolist"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"/>
+    </RelativeLayout>
+
+</LinearLayout>

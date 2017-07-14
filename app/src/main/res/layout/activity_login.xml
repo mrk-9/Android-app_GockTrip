@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_signup">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="vertical"
+    android:background="@color/topcolor">
+
+    <ImageView
+        android:id="@+id/btn_back_login"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:src="@drawable/backbutton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_login"
+        android:layout_centerInParent="true"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/topTabText"/>
+
+</RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_email"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp" />
+
+    <EditText
+        android:id="@+id/edit_email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uploadcorneredittext"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/str_password"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="30dp" />
+
+    <EditText
+        android:id="@+id/edit_pwd_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uploadcorneredittext"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/btn_validate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/greenbtn_selector"
+        android:text="@string/str_validate"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

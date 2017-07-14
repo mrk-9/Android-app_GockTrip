@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_videotab"
+    android:id="@+id/home_tab_layout">
+
+    <RelativeLayout
+        android:id="@+id/searchbar_back"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/searchbar_layout">
+
+        <ImageView
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_search"/>
+
+        <EditText
+            android:id="@+id/edittext_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textSize="12dp"
+            android:maxLines="1"
+            android:hint="Enter a Hotel, Restaurant, Destination..."
+            android:background="@android:color/transparent"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/btn_search_home"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/searchbtn_selector">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="OK"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lbl_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What are you looking for?"
+        android:layout_below="@+id/searchbar_back"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lbl_hint"
+        android:orientation="vertical"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:id="@+id/btn_hotels"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/greenbtn_selector"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/hotel"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/str_category_hotel"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/btn_resturants"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/pinkbtn_selector"
+            >
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/restaurant"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/str_category_restaurant"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/btn_active"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_below="@+id/btn_resturants"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/yellowbtn_selector">
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/activity"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/str_category_havetodo"
+                android:textColor="@android:color/white"
+                android:textSize="27dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/btn_destination"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/brownbtn_selector">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/destination"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/str_category_destination"
+                android:textColor="@android:color/white"
+                android:textSize="27dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

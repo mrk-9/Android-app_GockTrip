@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GockelTrip</string>
+
+
+    <string name="selectcategory">Sélectionnez la catégorie</string>
+    <string name="hotelrestaurantname">Nom de l’hôtel, restaurant ou activité</string>
+    <string name="citycountry">Ville, Pays</string>
+    <string name="description">Descrpiton</string>
+
+    <string name="change">Modifiez</string>
+
+
+    <string name="searchhint">Saisissez un bar, hôtel, destination...</string>
+    <string name="lookingfor">Que cherchez vous ?</string>
+
+
+
+    <string name="str_tab_home">Home</string>
+    <string name="str_tab_video">Vidéo</string>
+    <string name="str_tab_profile">Profil</string>
+
+    <string name="str_category_hotel">Hôtel</string>
+    <string name="str_category_restaurant">Restaurant</string>
+    <string name="str_category_havetodo">à voir / à faire</string>
+    <string name="str_category_destination">Destination</string>
+
+    <string name="str_login">Connexion</string>
+    <string name="str_signup">Inscription</string>
+    <string name="str_logout">Se déconnecter</string>
+    <string name="str_inscription">Inscription</string>
+
+    <string name="str_email">Email</string>
+    <string name="str_password">Mot de passe</string>
+    <string name="str_firstname">Prénom</string>
+    <string name="str_lastname">Nom de famille</string>
+    <string name="str_validate">Valider</string>
+    <string name="str_required_field">Champs Requis</string>
+    <string name="str_yourvideos">Vos Vidéos</string>
+    <string name="str_crop">Surgir</string>
+    <string name="str_cancel">Annuler</string>
+
+    <string name="txt_complete_this_form">Remplir Ce Formulaire</string>
+    <string name="txt_i_agree_gockel_terms">Je suis d accord termes Gockel</string>
+
+</resources>

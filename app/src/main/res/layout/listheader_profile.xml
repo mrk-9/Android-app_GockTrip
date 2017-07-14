@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:background="#edefec" >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avatar_profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/profile_photo" />
+
+        <TextView
+            android:id="@+id/txt_username_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ROMAIN BLANQUART"
+            android:textColor="#565656"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/txt_email_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="testsn@gmail.com"
+            android:textColor="#aeaeae"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btn_edit_profile"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:background="@drawable/greenborderbtn_selector"
+            android:text="@string/str_logout"
+            android:textColor="@color/topcolor"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/str_yourvideos"
+        android:textColor="#777777"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+</LinearLayout>

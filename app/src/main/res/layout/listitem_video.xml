@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <ImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_photo" />
+
+        <TextView
+            android:id="@+id/lbl_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lisa Aballo"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@color/topcolor"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_avatar"/>
+
+        <TextView
+            android:id="@+id/lbl_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 months ago"
+            android:textColor="@color/textgray"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/lbl_username"/>
+
+        <TextView
+            android:id="@+id/lbl_viewcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1249"
+            android:textColor="@color/textblack"
+            android:textSize="13dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignBottom="@+id/lbl_username"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="views"
+            android:textColor="@color/textgray"
+            android:textSize="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/lbl_viewcount"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <com.gocktrip.component.SquareRelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:id="@+id/videoview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/video_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:indeterminate="true"
+            android:layout_centerInParent="true"/>
+
+    </com.gocktrip.component.SquareRelativeLayout>
+
+
+    <TextView
+        android:id="@+id/lbl_hotelname"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Club Med Punta Cana"
+        android:textColor="@color/textblack"
+        android:textStyle="bold"
+        android:textSize="13dp"/>
+
+    <TextView
+        android:id="@+id/lbl_cityname"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Punta Cana"
+        android:textColor="@color/textblack"
+        android:textSize="13dp"/>
+
+    <TextView
+        android:id="@+id/lbl_videotitle"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Activie Circle"
+        android:textColor="@color/textblack"
+        android:textSize="13dp"/>
+
+    <TextView
+        android:id="@+id/lbl_description"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "On profile du soliei et apprend mem..."
+        android:textColor="@color/textgray"
+        android:textSize="11dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/textgray"
+        android:layout_margin="5dp"/>
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/videolikebtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/likebutton"
+            android:layout_alignTop="@+id/videofacebookshare"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/videolikenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:layout_marginStart="40dp"
+            android:text="2"
+            android:layout_centerVertical="true"
+            android:textColor="@color/textblack"
+            android:layout_toRightOf="@+id/videolikebtn"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:id="@+id/videofacebookshare"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/facebookshare"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/videoreportteam"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/reporticon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+</LinearLayout>

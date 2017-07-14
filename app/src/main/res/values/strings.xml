@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">GockelTrip</string>
+
+    <string name="message_firstname">Please insert the first name</string>
+    <string name="message_lastname">Please insert the last name</string>
+    <string name="message_email">Please insert the email</string>
+    <string name="message_password">Please insert the password</string>
+    <string name="message_loginDialog">Login</string>
+
+    <string name="url_getvideobycategory">posts/findByCategory.php</string>
+    <string name="url_getvideobykeyword">posts/findByKeyword.php</string>
+    <string name="url_getvideobycategorywithkeyword">posts/findByCategoryWithKeyword.php</string>
+    <string name="url_getVideobyuser">posts/findByUser.php</string>
+    <string name="url_reportAbuse">posts/reportAbuse.php</string>
+    <string name="url_setthanks">thanks/new.php</string>
+    <string name="url_addview">posts/addView.php</string>
+    <string name="url_login">users/login.php</string>
+    <string name="url_signup">users/new.php</string>
+    <string name="url_update">users/update.php</string>
+    <string name="url_getrecommendedKeywords">posts/matchedStrings.php</string>
+    <string name="url_getrecommendedKeywordsbycategory">posts/matchedStringsWithCategory.php</string>
+
+    <string name="warning_camera_intent_canceled">Camera Intent was canceled by user.</string>
+
+    <string name="activity_camera_intent_photo_uri_found">Photo uri found: </string>
+    <string name="activity_camera_intent_photo_uri_not_found">Photo uri not found!</string>
+    <string name="error_sd_card_not_mounted">External storage is required. Your SD card is most likely not mounted.</string>
+    <string name="error_could_not_take_photo">There was an issue with your camera. We are very sorry for the inconvenience!</string>
+    <string name="error_sth_went_wrong">Something went wrong. Please try again.</string>
+
+    <string name="facebook_app_id">823881534380674</string>
+
+
+
+    <string name="str_tab_home">Home</string>
+    <string name="str_tab_video">Video</string>
+    <string name="str_tab_profile">Profile</string>
+
+    <string name="str_category_hotel">Hotel</string>
+    <string name="str_category_restaurant">Restaurant</string>
+    <string name="str_category_havetodo">Activity</string>
+    <string name="str_category_destination">Destination</string>
+
+    <string name="str_login">Log in</string>
+    <string name="str_signup">Sign up</string>
+    <string name="str_logout">Log out</string>
+    <string name="str_inscription">Inscription</string>
+
+    <string name="str_email">Email</string>
+    <string name="str_password">Password</string>
+    <string name="str_firstname">First Name</string>
+    <string name="str_lastname">Last Name</string>
+    <string name="str_validate">Validate</string>
+    <string name="str_required_field">Required Field</string>
+    <string name="str_yourvideos">Your Videos</string>
+    <string name="str_crop">Crop</string>
+    <string name="str_cancel">Cancel</string>
+
+    <string name="txt_complete_this_form">Complete This Form</string>
+    <string name="txt_i_agree_gockel_terms">I agree Gockel terms</string>
+</resources>

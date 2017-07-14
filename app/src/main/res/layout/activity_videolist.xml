@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/videolist_layout">
+
+    <RelativeLayout
+        android:id="@+id/actionbar_listview"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:background="@color/topcolor">
+
+        <ImageView
+            android:id="@+id/btn_back_videolist"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/backbutton"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:layout_centerInParent="true"
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/lbl_title_videolist"
+            android:maxLines="1"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/icon_videolist"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/lbl_title_videolist"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionbar_listview">
+
+    </ListView>
+
+</RelativeLayout>
